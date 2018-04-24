@@ -2,19 +2,18 @@
 
 namespace Drupal\eventdispatcherexample\Utils;
 
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Symfony\Component\HttpKernel\KernelEvents;
+use Drupal\Core\Routing\RouteSubscriberBase;
+use Symfony\Component\Routing\RouteCollection;
 
-class RouteListener implements EventSubscriberInterface
+class RouteListener extends RouteSubscriberBase
 {
-    public function onKernelRequest($event)
+    protected function alterRoutes(RouteCollection $collection)
     {
-        var_dump($event);die;
+        if ($route = $collection->get('contact.site_page')) {
+
+            var_dump($route);die;
+            $route->setPath('/contactform');
+        }
     }
-    public static function getSubscribedEvents()
-    {
-        return [
-            KernelEvents::REQUEST => 'onKernelRequest',
-        ];
-    }
+
 }
