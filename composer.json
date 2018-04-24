@@ -1,0 +1,14 @@
+{
+  "name": "drupal/eventdispatcherexample",
+  "type": "drupal-module",
+  "description": "Drupal8 Symfony event dispatcher example",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/eventdispatcherexample",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/eventdispatcherexample",
+    "source": "http://cgit.drupalcode.org/eventdispatcherexample"
+  },
+  "require": { }
+}

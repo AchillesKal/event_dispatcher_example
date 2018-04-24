@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains eventdispatcherexample.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function eventdispatcherexample_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the eventdispatcherexample module.
+    case 'help.page.eventdispatcherexample':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Drupal8 Symfony event dispatcher example') . '</p>';
+      return $output;
+
+    default:
+  }
+}

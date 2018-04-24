@@ -1,0 +1,5 @@
+name: 'EventDispatcherExample'
+type: module
+description: 'Drupal8 Symfony event dispatcher example'
+core: 8.x
+package: 'Custom'
