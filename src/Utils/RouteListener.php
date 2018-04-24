@@ -11,7 +11,6 @@ class RouteListener implements EventSubscriberInterface
     {
         var_dump($event);die;
     }
-
     public static function getSubscribedEvents()
     {
         return [

@@ -1,0 +1,6 @@
+services:
+    eventdispatcherexample.route_listener:
+        class: \Drupal\eventdispatcherexample\Utils\RouteListener
+        arguments: []
+        tags:
+            - { name: event_subscriber }
