@@ -8,7 +8,7 @@ use Drupal\Tests\BrowserTestBase;
 /**
  * Simple test to ensure that main page loads with module enabled.
  *
- * @group eventdispatcherexample
+ * @group event_dispatcher_example
  */
 class LoadTest extends BrowserTestBase {
 
@@ -17,7 +17,7 @@ class LoadTest extends BrowserTestBase {
    *
    * @var array
    */
-  public static $modules = ['eventdispatcherexample'];
+  public static $modules = ['event_dispatcher_example'];
 
   /**
    * A user with permission to administer site configuration.

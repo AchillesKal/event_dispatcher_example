@@ -1,5 +1,5 @@
 {
-  "name": "drupal/eventdispatcherexample",
+  "name": "drupal/event_dispatcher_example",
   "type": "drupal-module",
   "description": "Drupal8 Symfony event dispatcher example",
   "keywords": ["Drupal"],

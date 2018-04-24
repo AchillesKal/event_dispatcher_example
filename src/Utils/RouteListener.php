@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\eventdispatcherexample\Utils;
+namespace Drupal\event_dispatcher_example\Utils;
 
 use Drupal\Core\Routing\RouteSubscriberBase;
 use Symfony\Component\Routing\RouteCollection;
